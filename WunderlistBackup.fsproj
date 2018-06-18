@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Json.fs" />
+    <Compile Include="MaybeBuilder.fs" />
+    <Compile Include="Http.fs" />
+    <Compile Include="Models.fs" />
+    <Compile Include="HexString.fs" />
+    <Compile Include="Credentials.fs" />
+    <Compile Include="Requests.fs" />
+    <Compile Include="BackUp.fs" />
+    <Compile Include="PrettyPrinter.fs" />
+    <Compile Include="Wunderlist.fs" />
+    <Compile Include="FileDownload.fs" />
+    <Compile Include="Serialization.fs" />
+    <Compile Include="CommandLine.fs" />
+    <Compile Include="Save.fs" />
+    <Compile Include="View.fs" />
+    <Compile Include="ParseArguments.fs" />
+    <Compile Include="CommandLineActions.fs" />
+    <Compile Include="Program.fs" />
+    <Content Include="FilesJsonSample.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="NotesJsonSample.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="FoldersJsonSample.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ListsJsonSample.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SubtasksJsonSample.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TasksJsonSample.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="2.4.6" />
+    <PackageReference Include="LiteDB" Version="4.1.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.5.2" />
+  </ItemGroup>
+</Project>

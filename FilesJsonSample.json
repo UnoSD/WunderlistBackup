@@ -1,0 +1,16 @@
+[{
+		"id": 9223372036854775807,
+		"url": "https://download.wunderlist.io/filelink",
+		"task_id": 9223372036854775807,
+		"user_id": 9223372036854775807,
+		"content_type": "image/png",
+		"file_name": "filename.png",
+		"file_size": 9223372036854775807,
+		"local_created_at": "2018-05-05T14:47:20.000Z",
+		"created_at": "2018-05-05T14:47:37.743Z",
+		"updated_at": "2018-06-03T16:25:52.036Z",
+		"created_by_request_id": "requestid",
+		"type": "file",
+		"revision": 9223372036854775807
+	}
+]

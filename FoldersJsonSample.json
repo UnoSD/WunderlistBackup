@@ -1,0 +1,12 @@
+[{
+		"id": 9223372036854775807,
+		"title": "Folder name",
+		"user_id": 9223372036854775807,
+		"list_ids": [9223372036854775807, 9223372036854775807],
+		"created_at": "2016-04-21T08:09:25.972Z",
+		"created_by_id": 9223372036854775807,
+		"created_by_request_id": "requestid",
+		"updated_at": "2018-05-04T15:15:56.679Z",
+		"type": "folder",
+		"revision": 9223372036854775807
+	}]
