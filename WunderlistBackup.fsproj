@@ -20,7 +20,9 @@
     <Compile Include="Save.fs" />
     <Compile Include="View.fs" />
     <Compile Include="ParseArguments.fs" />
+    <Compile Include="Actions.fs" />
     <Compile Include="CommandLineActions.fs" />
+    <Compile Include="ActionsComposition.fs" />
     <Compile Include="Program.fs" />
     <Content Include="FilesJsonSample.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
